@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aaron Ludwig A. Altar - Computer Engineering Student</title>
+    <link rel="stylesheet" href="ALTAR_AL_mypersonalwebsite.css">
+</head>
+<body>
+    <input type="checkbox" id="dark-mode-toggle" class="dark-mode-checkbox" aria-label="Toggle Dark Mode">
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">Personal Website</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#seminars" class="nav-link">Seminars</a></li>
+                <li><a href="#hobbies" class="nav-link">Hobbies</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li>
+                    <label for="dark-mode-toggle" class="dark-mode-label" title="Toggle Dark Mode">
+                        <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="5"></circle>
+                            <line x1="12" y1="1" x2="12" y2="3"></line>
+                            <line x1="12" y1="21" x2="12" y2="23"></line>
+                            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                            <line x1="1" y1="12" x2="3" y2="12"></line>
+                            <line x1="21" y1="12" x2="23" y2="12"></line>
+                            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                        </svg>
+                        <svg class="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                        </svg>
+                    </label>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <img src="aaronpic.png" alt="Aaron Ludwig A. Altar" class="profile-pic hero-pic">
+            <h1 class="hero-title">Aaron Ludwig A. Altar</h1>
+            <p class="hero-subtitle">Third Year Computer Engineering Student</p>
+            <p class="hero-description">University of Batangas, Lipa City</p>
+            <a href="#contact" class="btn btn-dark-blue">Connect With Me</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <p style="font-size: 1.15rem; line-height: 1.6;">Welcome to my personal portfolio! I'm a 3rd-year Computer Engineering student who loves to do breadboarding, a little bit of coding, and logic design. I am also highly interested in robotics, Arduino, and making practical things work. I'm dedicated to developing innovative solutions and exploring the fascinating world of technology.</p>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="education-box">
+                        <h3>Education</h3>
+                        <div class="education-timeline">
+                            <div class="education-item">
+                                <h4>Nursery - Kindergarten</h4>
+                                <p>Full Grace Christian School</p>
+                            </div>
+                            <div class="education-item">
+                                <h4>Preparatory - Grade 8</h4>
+                                <p>Batangas College of Arts and Sciences</p>
+                            </div>
+                            <div class="education-item">
+                                <h4>Grade 9 - Grade 10</h4>
+                                <p>De La Salle Lipa</p>
+                            </div>
+                            <div class="education-item active">
+                                <h4>College (1st Year - Present)</h4>
+                                <p><strong>Course:</strong> Computer Engineering</p>
+                                <p><strong>Current Year:</strong> Third Year</p>
+                                <p>University of Batangas, Lipa City</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <table class="skills-table">
+                        <thead>
+                            <tr>
+                                <th colspan="2">Technical Skills</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Breadboarding & Circuit Design</td>
+                                <td><span class="skill-level">Intermediate</span></td>
+                            </tr>
+                            <tr>
+                                <td>Arduino Programming</td>
+                                <td><span class="skill-level">Intermediate</span></td>
+                            </tr>
+                            <tr>
+                                <td>Python / C++ / Java</td>
+                                <td><span class="skill-level">Intermediate</span></td>
+                            </tr>
+                            <tr>
+                                <td>Logic Design</td>
+                                <td><span class="skill-level">Intermediate</span></td>
+                            </tr>
+                            <tr>
+                                <td>Robotics</td>
+                                <td><span class="skill-level">Intermediate</span></td>
+                            </tr>
+                            <tr>
+                                <td>HTML/CSS</td>
+                                <td><span class="skill-level">Intermediate</span></td>
+                            </tr>
+                            <tr>
+                                <td>Cisco I / Cisco II</td>
+                                <td><span class="skill-level">Intermediate</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="project1.png" alt="Project 1" class="project-placeholder">
+                    <h3>Multipurpose Kit</h3>
+                    <p>A multipurpose kit for detecting smoke and producing a sound when it detects smoke, sound activated LED, and a LED that automatically turns on when it is dark.</p>
+                    <div class="project-tags">
+                        <span class="tag">Etching</span>
+                        <span class="tag">Circuit Design</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="project2.png" alt="Project 2" class="project-placeholder">
+                    <h3>7 Segment Display</h3>
+                    <p>A project using logic gates, breadboarding, and circuit design.</p>
+                    <div class="project-tags">
+                        <span class="tag">Breadboarding</span>
+                        <span class="tag">Circuit Design</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="project3.png" alt="Project 3" class="project-placeholder">
+                    <h3>NYC Collision Project</h3>
+                    <p>A project focused on collision detection and response in a simulated NYC environment.</p>
+                    <div class="project-tags">
+                        <span class="tag">Coding</span>
+                        <span class="tag">Data Structure</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="project4.png" alt="Project 4" class="project-placeholder">
+                    <h3>24 Second Shot Clock</h3>
+                    <p>A project using more complicated logic design, etching, and circuit design.</p>
+                    <div class="project-tags">
+                        <span class="tag">Circuit Design</span>
+                        <span class="tag">Logic Circuit</span>
+                        <span class="tag">Etching</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <h2 class="section-title">Achievements</h2>
+            <div class="achievements-list">
+                <ul class="achievements-bullets">
+                    <li><strong>Dean's Lister - College </strong> (1st Year - 3rd Year, 1st Semester)</li>
+                    <li>Consistent Honor Student since Nursery</li>
+                    <li>District Meet - Robotics/Science Quest Presenter</li>
+                    <li>Division Meet - Robotics/Science Quest Presenter</li>
+                    <li>Regional Meet - Robotics/Science Quest Presenter</li>
+                    <li>National Meet - Robotics Champion Science Quest Presenter (Baguio City)</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+<section id="seminars" class="seminars" style="background-color: var(--light-bg); padding: 80px 0;">
+        <div class="container">
+            <h2 class="section-title">Attended Seminars</h2>
+            <div class="projects-grid">
+                
+                <div class="project-card">
+                    <img src="cert1.png" alt="Seminar Certificate 1" class="cert-img">
+                    <div style="padding: 1.5rem;">
+                        <h3>Tech Nexus 2024: Empowering Campus Innovators</h3>
+                        <p style="color: var(--primary-color); font-weight: bold; font-size: 1.2rem; margin-bottom: 0;">Campus Devcon • December 7, 2024</p>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="cert2.png" alt="Seminar Certificate 2" class="cert-img">
+                    <div style="padding: 1.5rem;">
+                        <h3>Batangas AI and Cybersecurity Congress 2025</h3>
+                        <p style="color: var(--primary-color); font-weight: bold; font-size: 1.2rem; margin-bottom: 0;">CPESS UBAT • November 7, 2025</p>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="cert3.png" alt="Seminar Certificate 3" class="cert-img">
+                    <div style="padding: 1.5rem;">
+                        <h3>ICpEP.se Region 4A Regional Convention and General Assembly: "Tech Tambayan"</h3>
+                        <p style="color: var(--primary-color); font-weight: bold; font-size: 1.2rem; margin-bottom: 0;">ICPEP Region 4A • November 15, 2025</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="hobbies" class="hobbies">
+        <div class="container">
+            <h2 class="section-title">My Hobbies</h2>
+            <div class="hobbies-grid">
+                <a href="#modal-gaming" class="hobby-card">
+                    <img src="gaming.png" alt="Gaming" class="hobby-icon">
+                    <div class="hobby-overlay"></div>
+                    <div class="hobby-content">
+                        <h3>Gaming</h3>
+                        <p>I love playing Mobile Legends and competing in strategic gameplay.</p>
+                    </div>
+                </a>
+                <a href="#modal-fitness" class="hobby-card">
+                    <img src="fitness.png" alt="Fitness" class="hobby-icon">
+                    <div class="hobby-overlay"></div>
+                    <div class="hobby-content">
+                        <h3>Fitness</h3>
+                        <p>I am passionate about staying active, lifting heavy weights, and maintaining a healthy lifestyle.</p>
+                    </div>
+                </a>
+                <a href="#modal-movies" class="hobby-card">
+                    <img src="movies.png" alt="Movies" class="hobby-icon">
+                    <div class="hobby-overlay"></div>
+                    <div class="hobby-content">
+                        <h3>Movies</h3>
+                        <p>I enjoy watching Romantic Comedy movies, Anime, and K-Drama. </p>
+                    </div>
+                </a>
+                <a href="#modal-basketball" class="hobby-card">
+                    <img src="basketball.png" alt="Basketball" class="hobby-icon">
+                    <div class="hobby-overlay"></div>
+                    <div class="hobby-content">
+                        <h3>Basketball</h3>
+                        <p>Playing basketball keeps me active and helps me bond with friends.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Connect With Me</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <p class="contact-subtitle">Feel free to reach out through any of these platforms</p>
+                    <div class="social-links">
+                        <a href="https://github.com/2320616-coder" class="social-link github" title="GitHub">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v 3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                            GitHub
+                        </a>
+                        <a href="mailto:aaronaltar@gmail.com" class="social-link gmail" title="Gmail">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                            </svg>
+                            Gmail
+                        </a>
+                        <a href="https://www.facebook.com/aaronludwigg" class="social-link facebook" title="Facebook">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                            </svg>
+                            Facebook
+                        </a>
+                        <a href="https://www.instagram.com/aaron.ludwigg/" class="social-link instagram-link" title="Instagram">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.204-.012 3.584-.07 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zM5.838 12a6.162 6.162 0 1 1 12.324 0 6.162 6.162 0 0 1-12.324 0zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm4.965-10.322a1.44 1.44 0 1 1 2.881.001 1.44 1.44 0 0 1-2.881-.001z"/>
+                            </svg>
+                            Instagram
+                        </a>
+                    </div>
+                </div>
+
+                <form class="contact-form">
+                    <h3 style="color: var(--text-dark); margin-bottom: 1.5rem; font-size: 1.3rem;">Send Me a Message</h3>
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="form-submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div id="modal-gaming" class="modal">
+        <div class="modal-content">
+            <a href="#hobbies" class="modal-close">&times;</a>
+            <div class="modal-header">
+                <div class="modal-icon">🎮</div>
+                <h2>Gaming</h2>
+            </div>
+            <div class="modal-body">
+                <p>I specialize in Mobile Legends and enjoy the competitive, strategic elements of climbing the ranks.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-fitness" class="modal">
+        <div class="modal-content">
+            <a href="#hobbies" class="modal-close">&times;</a>
+            <div class="modal-header">
+                <div class="modal-icon">💪</div>
+                <h2>Fitness</h2>
+            </div>
+            <div class="modal-body">
+                <p>I enjoy staying active and lifting heavy weights to keep my mind focused.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-movies" class="modal">
+        <div class="modal-content">
+            <a href="#hobbies" class="modal-close">&times;</a>
+            <div class="modal-header">
+                <div class="modal-icon">🎬</div>
+                <h2>Movies</h2>
+            </div>
+            <div class="modal-body">
+                <p>I love getting lost in a good story. Sci-fi, action, and thrillers are my go-to genres for movie nights.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-basketball" class="modal">
+        <div class="modal-content">
+            <a href="#hobbies" class="modal-close">&times;</a>
+            <div class="modal-header">
+                <div class="modal-icon">🏀</div>
+                <h2>Basketball</h2>
+            </div>
+            <div class="modal-body">
+                <p>Hitting the court is my favorite way to stay fit, clear my head, and hang out with friends after coding.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Aaron Ludwig A. Altar. All rights reserved.</p>
+            <p>Computer Engineering Student | University of Batangas, Lipa City</p>
+        </div>
+    </footer>
+</body>
+</html>
